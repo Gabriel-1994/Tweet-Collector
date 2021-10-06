@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title>Gabriel's Twitter Tracker</title>
+    <link rel="stylesheet" type="text/css" href="user.css?v=1.1" />
+</head>
+<body>
+  <br><br>
+    <h1>This is what I Tracked So Far!</h1>
+    <br><br>    
+
+    <table id="results" style="border:1px solid black;margin-left:auto;margin-right:auto;">
+        <tr>
+          <th><b>Fullname</b></th>
+          <td>{{v[0]}}</td> 
+          
+        </tr>
+        <tr>
+          <th><b>Followers</b></th>
+          <td>{{v[1]}}</td>
+        </tr>
+        <tr>
+          <th><b>Tweets</b></th>
+          <td>{{v[2]}}</td>
+        </tr>
+        <tr>
+          <th><b>Retweets</b></th>
+          <td>{{v[3]}}</td>
+        </tr>
+        <tr>
+            <th><b>Favorites</b></th>
+            <td>{{v[4]}}</td>
+          </tr>
+          <tr>
+            <th><b>Mentions</b></th>
+            <td>{{v[5]}}</td>
+          </tr>
+          <tr>
+            <th><b>Number of followers that increased since yesterday  </b></th>
+            <td>{{v[6]}}</td>
+          </tr>
+          
+      </table>
+
+      <br><br>    
+
+      <div>
+      <button class=my_cool_button onclick="goBack()">Back</button>
+      </div>
+
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+      </script>
+
+      
+    
+</body>
+</html>

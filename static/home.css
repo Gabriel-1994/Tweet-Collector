@@ -1,0 +1,48 @@
+h1, h2, div {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;  
+}
+
+.my_cool_button{
+  border: none;
+    height: 40px;
+    width: 100px;
+    box-sizing: border-box;
+    font-weight: bold;
+    border-radius: 10px;
+	margin-top: 20px;
+  cursor: pointer;
+}
+
+.my_cool_button:hover{
+
+    background-color: #555555;
+    color: white;
+
+}
+
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: black;
+  }
+
+  body{
+    background-color: #55ACEE;
+  }
